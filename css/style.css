@@ -38,7 +38,7 @@ body {
 }
 
 a{
-    color:cyan;
+    color: lightblue;
 }
 
 #footer{
@@ -53,4 +53,32 @@ a{
 
 .content{
     font-size: 25px;
+}
+
+#other-countries {
+    background-color: lightgray;
+    padding: 0%;
+    color: black;
+}
+
+#other-countries ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#other-countries a {
+    color: blue;
+}
+
+#cities ol{
+    font-size: 20px;
+    display: flex;
+}
+
+#cities img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 300px;
 }
