@@ -74,6 +74,9 @@ a{
 #cities ol{
     font-size: 20px;
     display: flex;
+    list-style-position: inside;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
 #cities img {
@@ -81,4 +84,27 @@ a{
     height: auto;
     display: block;
     max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+  #main-title, #title2{
+    font-size:40px;
+  }
+  .cities-title{
+    font-size: 20px;
+  }
+  .content{
+    font-size: 15px;
+  }
+    #cities ol{
+    flex-direction: column;
+    gap:40px;
+  }
+  #other-countries ul{
+    flex-direction: column;
+    align-items: center;
+  }
 }
