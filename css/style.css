@@ -38,12 +38,13 @@ body {
 }
 
 a{
-    color: lightblue;
+    color: mintcream;
 }
 
 #footer{
     font-size: 20px;
     text-align: right;
+    gap: 30px;
 }
 
 #footer2{
@@ -86,6 +87,11 @@ a{
     max-width: 300px;
 }
 
+.External-Links ul{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
 @media (max-width: 600px) {
   body {
     font-size: 16px;
