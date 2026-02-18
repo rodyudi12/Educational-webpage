@@ -11,85 +11,82 @@
     </head>
     <body>
             <header>
-            <h1 id="title2">BEST CITIES TO VISIT IN BRAZIL</h1>
+            <h1 id="main-title">BEST CITIES TO VISIT IN BRAZIL</h1>
             </header>
 <!-- Main content of second page-->            
-    <main>
+    <main class="container my-5">
+        <div class="text-center mt-5">
         <p class="content">This page explains why some Brazilian cities are popular tourist destinations.</p>
         <p class="content">Each city offers unique landmarks, culture, and natural attractions.</p>
+        </div>
 <!-- Section 2-->
 <section id="cities">
      <h2 class="cities-title">Why visit those cities?</h2>
-        <ol>
-            <li>Rio de Janeiro
+     <div class="row">
+        <div class="col-md-6 mb-4 ms-4">
+            <h4>Rio de Janeiro</h4>
+                <img src="./images/Rio-de-Janeiro.jpg"
+                class="img-fluid rounded mb-2"
+                alt="Rio de Janeiro view">
+        <ul>
+            <li>Iconic landmarks such as Christ the Redeemer</li>
+            <li>Famous beaches like Copacabana and Ipanema</li>
+        </ul>
+        </div>
+        <div class="col-md-6 mb-4 ms-4">
+            <h4>São Paulo</h4>
+            <img src = "./images/São-Paulo.jpg"
+            class="img-fluid rounded mb-2"
+            alt="An image from São Paulo an a view from Ponte Estaiada">
+            <ul>
+                <li>Largest city in Brazil with great nightlife</li>
+                <li>Cultural attractions like museums and theaters</li>
+            </ul>
+        </div>
+        <div class="col-md-6 mb-4 ms-4">
+            <h4>Recife</h4>
+                <img src = "./images/Recife.jpg"
+                alt="An image from Recife of the beach and from the city"
+                class="img-fluid rounded mb-2"/>
                 <ul>
-                    <li><img
-                    src = "./images/Rio-de-Janeiro.jpg"
-                    alt="An image from Rio de Janeiro from the top, you can see the beaches and the city"
-                    width="20%"
-                    ></li>
-                    <li>Iconic landmarks such as Christ the Redeemer</li>
-                    <li>Famous beaches like Copacabana and Ipanema</li>
+                    <li>Beautiful beaches and warm weather</li>
+                    <li>Rich history and colonial architecture</li>
                 </ul>
-            </li>
-            <li>São Paulo
-                <ul>
-                    <li><img
-                    src = "./images/São-Paulo.jpg"
-                    alt="An image from São Paulo an a view from Ponte Estaiada"
-                    width="20%"
-                    /></li>
-                    <li>Largest city in Brazil with great nightlife</li>
-                    <li>Cultural attractions like museums and theaters</li>
-                </ul>
-            </li>
-            <li>Recife
-                    <ul>
-                    <li><img
-                    src = "./images/Recife.jpg"
-                    alt="An image from Recife of the beach and from the city"
-                    width="15%"
-                    /> </li>
-                        <li>Beautiful beaches and warm weather</li>
-                        <li>Rich history and colonial architecture</li>
-                    </ul>
-                </li>
-            <li>Florianópolis
-                <ul>
-                    <li><img
-                    src = "./images/Florianópolis.jpg"
-                    alt="An image from Florianópolis from the sky, you can see the whole city and the ocean"
-                    width="15%"
-                    /></li>
-                    <li>Known for its many beaches and surfing spots</li>
-                    <li>High quality of life and nature attractions</li>
-                </ul>
-            </li>
-            <li>Fernando De Noronha
-                <ul>
-                    <li><img
-                    src = "./images/Fernando-de-Noronha.jpg"
-                    alt="An image of Fernando de Noronha Island"
-                    width="15%"
-                    /></li>
-                    <li>Crystal-clear waters and marine life</li>
-                    <li>One of the best places for snorkeling and diving</li>
-                </ul>
-            </li>
-        </ol>
+        </div>
+        <div class="col-md-6 mb-4 ms-4">
+            <h4>Florianópolis</h4>
+                <img src = "./images/Florianópolis.jpg"
+                alt="An image from Florianópolis from the sky, you can see the whole city and the ocean"
+                class="img-fluid rounded mb-2"/>
+            <ul>
+                <li>Known for its many beaches and surfing spots</li>
+                <li>High quality of life and nature attractions</li>
+            </ul>
+        </div>
+        <div class="col-md-6 mb-4 ms-4">
+            <h4>Fernando De Noronha</h4>
+                <img src = "./images/Fernando-de-Noronha.jpg"
+                alt="An image of Fernando de Noronha Island"
+                class="img-fluid rounded mb-2"/>
+            </ul>
+                <li>Crystal-clear waters and marine life</li>
+                <li>One of the best places for snorkeling and diving</li>
+            </ul>
+        </div>
+        </div>
     </section>
+</main>
 <!-- Navigation with other countries (Argentina and Chile are not possible to open as there is no code for them)-->
         <nav id = "other-countries">
-            <h3>Other countries in South America</h3>
+            <h4>Other countries in South America</h4>
             <ul>
                 <li><a href= "Argentina.html">Learn about Argentina</a></li>
                 <li><a href= "Chile.html">Learn about Chile</a></li>
             </ul>
         </nav>
 <!-- Footer to go back to first page-->
-        <footer id="footer2">
-            <a href="index.html">Back to Home</a> 
+        <footer class="footer text-end py-3">
+            <a href="index.html" class="btn btn-primary">Back to Home</a> 
         </footer>
-    </main>
     </body>
 </html>
