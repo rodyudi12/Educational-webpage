@@ -59,20 +59,19 @@ a{
     color: blue;
 }
 
-#cities ol{
-    font-size: 20px;
+#cities {
     display: flex;
-    list-style-position: inside;
     flex-wrap: wrap;
-    gap: 80px;
+    gap: 30px;
+    list-style-position: inside;
 }
 
 #cities img {
+    width: 100%;
     height: auto;
     display: block;
     max-width: 300px;
 }
-
 .External-Links ul{
     display: flex;
     gap:10px;
