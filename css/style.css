@@ -10,19 +10,9 @@ body {
     color: black;
     padding: 5px; 
     background-color: yellow;
-    width: 100%;
     ;
 }
 
-#title2 {
-    font-weight: bold;
-    font-size: 60px;
-    text-align: center;
-    color: white;
-    padding: 5px; 
-    width: 100%;
-    ;
-}
 .cities-title {
     font-weight: bold;
     font-size: 40px;
@@ -43,13 +33,11 @@ a{
 
 #footer{
     font-size: 20px;
-    text-align: right;
     gap: 30px;
 }
 
 #footer2{
     font-size: 20px;
-    text-align: left;
 }
 
 .content{
@@ -58,7 +46,6 @@ a{
 
 #other-countries {
     background-color: lightgray;
-    padding: 0%;
     color: black;
 }
 
@@ -81,7 +68,6 @@ a{
 }
 
 #cities img {
-    width: 100%;
     height: auto;
     display: block;
     max-width: 300px;
